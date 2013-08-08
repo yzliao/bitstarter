@@ -1,276 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Ready2Fly -- Enjoy your trip with cheap air ticket</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-    <link rel="stylesheet" 
-          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
-    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
-    <style type="text/css">
+<head>
+  <meta charset="utf-8">
+  <title>Ready2Fly -- Enjoy your trip with cheap air ticket</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+  <link rel="stylesheet" 
+  href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+  <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+  <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+  <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
+  <style type="text/css">
 
-    /* Large desktop */
-    @media (min-width:980px)
-    {
-	   body{
-		  padding-top: 60px;
-	   }
-	   .linediv-l{
-	     border-right: 1px white solid;
-	   }
-	   .linediv-r{
-	     border-left: 1px white solid;
-	   }
-    }
-    
-    /* Landscape phones and down */
-    @media (max-width: 480px){
-     .copy{
-    	   padding: 2.5% 10%;
-         }
-         .linediv-l{
-    	     border-bottom: 1px white solid;
-         }
-         .linediv-r{
-    	     border-top: 1px white solid;
-         }
-    } 
-
-    /* All form factors */
+  /* Large desktop */
+  @media (min-width:980px)
+  {
     body{
-      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    } 
-    .heading, .subheading
-    {
+      padding-top: 60px;
+    }
+    .linediv-l{
+      border-right: 1px white solid;
+    }
+    .linediv-r{
+      border-left: 1px white solid;
+    }
+  }
+
+  /* Landscape phones and down */
+  @media (max-width: 480px){
+   .copy{
+    padding: 2.5% 10%;
+  }
+  .linediv-l{
+    border-bottom: 1px white solid;
+  }
+  .linediv-r{
+    border-top: 1px white solid;
+  }
+} 
+
+/* All form factors */
+body{
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+} 
+.heading, .subheading
+{
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-        text-align: center;
-    }
+  text-align: center;
+}
 
-    p.lead{
-      padding-top:1.5%;
-      font-size: 24px;
-      line-height: 30px;
-    }
-    p {
-      font-size: 18px;
-      line-height: 24px;
-    }
+p.lead{
+  padding-top:1.5%;
+  font-size: 24px;
+  line-height: 30px;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
 
-    /*video pitch and Action */
-    .pitch {
-      padding: 2.5% 0%;
-    }
-    .order{
-      padding: 2% 0%;
-    }
-    .actions {
-      background-color: #343434;
-      padding: 3% 0%;
-    }
-    .video, .thermometer, .order, .social, .statistics {
-      text-align: center;
-    }
-    .statistics h3, .statistics p{
-      color: white;
-    }
+/*video pitch and Action */
+.pitch {
+  padding: 2.5% 0%;
+}
+.order{
+  padding: 2% 0%;
+}
+.actions {
+  background-color: #343434;
+  padding: 3% 0%;
+}
+.video, .thermometer, .order, .social, .statistics {
+  text-align: center;
+}
+.statistics h3, .statistics p{
+  color: white;
+}
 
-    /* Marketing Copy and Footer */
-    .copy {
-      padding-top: 2.5%;
-      padding-bottom: 2.5%;
-      text-align: justify;
-    }
-    .asset {
-      padding: 2.5% 0%;
-    }
-    .footer{
-      color: #cccccc;
-      text-align: center;
-    }
-    .footer p{font-size: 11px;}
-    .footer a{
-      color: #ccccff;
-    }
+/* Marketing Copy and Footer */
+.copy {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  text-align: justify;
+}
+.asset {
+  padding: 2.5% 0%;
+}
+.footer{
+  color: #cccccc;
+  text-align: center;
+}
+.footer p{font-size: 11px;}
+.footer a{
+  color: #ccccff;
+}
 
+div.addthis_toolbox
+{
+  width: 180px;
+  margin: 0 auto;
+}
 
-    </style>
-  </head>
-  <body>
+</style>
+</head>
+<body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="containter">
-          <button type="button" class="btn btn-navbar"
-                data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="#">Ready2Fly</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="containter">
+        <button type="button" class="btn btn-navbar"
+        data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand" href="#">Ready2Fly</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
     </div>
+  </div>
+</div>
 
 
-    <div class="container">
-      <div class="row-fluid heading">
-        <div class="span12">
-          <h1>Ready2Fly</h1>
-        </div>
-      </div> 
-     <div class="row-fluid subheading">
-        <div class="span12">
-          <p class="lead">Enjoy Your Trip with Cheap Air Ticket</p>
-        </div>
-      </div>
-      <div class="row-fluid pitch">
-        <div class="span5 offset1 video">
-          <img class="img-polaroid" width="470" height="300" src="img/Google-flight-Search.png">
-        </div>
+<div class="container">
 
-        <div class="span5 actions">
-          <div class="span8 offset2">
-            <div class="statistics">
-              <div class="span4">
-                <div class="linediv-l">
-                  <h3>1000</h3> <p>backers</p>
-                </div>
-              </div>
-              <div class="span4">
-                <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
-                </div>
-              </div>
-              <div class="span4">
-                  <div class="linediv-r">
-                    <h3>10</h3> <p>days left</p>
-                  </div>
-              </div>
+  <div class="row-fluid heading">
+    <div class="span12">
+      <h1>Ready2Fly</h1>
+    </div>
+  </div> 
+
+
+  <div class="row-fluid subheading">
+    <div class="span12">
+      <p class="lead">Enjoy Your Trip with Cheap Air Ticket</p>
+    </div>
+  </div>
+
+
+  <div class="row-fluid pitch">
+    <div class="span5 offset1 video">
+      <img class="img-polaroid" width="470" height="300" src="img/Google-flight-Search.png">
+    </div>
+
+    <div class="span5 actions">
+      <div class="row-fluid">
+      <div class="span8 offset2">
+        <div class="row-fluid statistics">
+          <div class="span4">
+            <div class="linediv-l">
+              <h3>1000</h3> <p>backers</p>
             </div>
           </div>
-          <div class="span10 offset1">
-            <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 60%;"></div>
-              <div class="bar bar-warning" style="width: 40%;"></div>
+          <div class="span4">
+            <div class="linediv-c">
+              <h3>$6000</h3> <p>of $10,000</p>
             </div>
           </div>
-
-          <div class="span6 offset3 order">
-            <button class="btn btn-success btn-large">Preorder</button>
-          </div>
-
-          <div class="span8 offset2 social">
-            <button class="btn btn-twitter"><i class="icon-twitter">Twitter</i></button>
-            <button class="btn btn-facebook"><i class="icon-facebook">Twitter</i></button>
+          <div class="span4">
+            <div class="linediv-r">
+              <h3>10</h3> <p>days left</p>
+            </div>
           </div>
         </div>
       </div>
 
 
-          
-      <div class="row-fluid section1">
-        <div class="span5 offset1 assert">
-          <img class="img-polaroid" src="img/openflights-routedb-2048.png">
-        </div>
-        <div class="span5 copy">
-          <p>Today, air flight has become the most convienient way for traveling. However, for many young people, the air fare is still not affordable. They are always looking for the cheapest air ticket on the market. The flight price is similar to stock market, which changes always. We, Ready2Fly, aim to help people to track the flight ticket price and hit the lowest price. We hope to save your money and let you enjoy the trip.</p>
-        </div>
-      </div>
-
-
-      <div class="row-fluid section2">
-        <div class="span5 offset1 copy copy-right">
-
-          <p>Rather than most ticket sellers on the market, who only allow you to search, we provide tools to help you track the flight ticket price.s You only need to give your destination, your trip date and your target price. We will help you to track thousands rotines in realtime and alert you when the lowest price is available. We use graphical model and machine learning to optimize our performance.</p>
-        </div>
-        <div class="span5 asset">
-          <img class="img-polaroid" src="img/bookticket.jpg">
-        </div>
-      </div>
-
-
-      <div class="row-fluid faq">
+      <div class="row_fluid">
         <div class="span10 offset1">
-          <h3>FAQ</h3>
-
-          <div class="accordion" id="accordion4">
-
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                  What is Ready2Fly?
-                </a>
-              </div>
-              <div id="collapseOne" class="accordion-body collapse">
-                <div class="accordion-inner">
-                  Ready2Fly is a web service provider who help people to track the low price air ticket on the market.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                  How Ready2Fly works?
-                </a>
-              </div>
-              <div id="collapseTwo" class="accordion-body collapse">
-                <div class="accordion-inner">
-                  Ready2Fly provides online tools for people to track ticket. The customers only need to type the destination, the trip date, and the target price. Readly2Fly will alert the customers when the low price ticket is available.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                  Why Ready2Fly can find low price ticket?
-                </a>
-              </div>
-              <div id="collapseThree" class="accordion-body collapse">
-                <div class="accordion-inner">
-                  We use graphical model to analyze flight routing over dozens air carriers. We use machine learning and data mining to dig the lowest possible ticket.
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-                  Does Ready2Fly sell ticket?
-                </a>
-              </div>
-              <div id="collapseFour" class="accordion-body collapse">
-                <div class="accordion-inner">
-                  We do not sell ticket directly. But we will advise you where to purchse the ticket.
-                </div>
-              </div>
-            </div>
+          <div class="thermometer progress active">
+            <div class="bar bar-success" style="width: 60%;"></div>
+            <div class="bar bar-warning" style="width: 40%;"></div>
+          </div>
         </div>
       </div>
 
+      <div class="row-fluid">
+        <div class="span6 offset3 order">
+          <button class="btn btn-success btn-large">Preorder</button>
+        </div>
+      </div>
 
-    </div>
-
-
-      <div class="row-fluid footer">
-        <div class="span12">
-          <p>This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>, without all the cruft that would otherwise be put at the botton of the page.</p>
+      <div class="row-fluid">
+        <div class="span8 offset2 social">
+          <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+            <a class="addthis_button_preferred_1"></a>
+            <a class="addthis_button_preferred_2"></a>
+            <a class="addthis_button_compact"></a>
+            <a class="addthis_counter addthis_bubble_style"></a>
+          </div>
+          <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+          <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5203178f14488007"></script>
+          <!-- AddThis Button END -->
         </div>
       </div>
     </div>
-  </body>
+    </div>
+  </div>
+
+
+
+  <div class="row-fluid section1">
+    <div class="span5 offset1 assert">
+      <img class="img-polaroid" src="img/openflights-routedb-2048.png">
+    </div>
+    <div class="span5 copy">
+      <p>Today, air flight has become the most convienient way for traveling. However, for many young people, the air fare is still not affordable. They are always looking for the cheapest air ticket on the market. The flight price is similar to stock market, which changes always. We, Ready2Fly, aim to help people to track the flight ticket price and hit the lowest price. We hope to save your money and let you enjoy the trip.</p>
+    </div>
+  </div>
+
+
+  <div class="row-fluid section2">
+    <div class="span5 offset1 copy copy-right">
+
+      <p>Rather than most ticket sellers on the market, who only allow you to search, we provide tools to help you track the flight ticket price.s You only need to give your destination, your trip date and your target price. We will help you to track thousands rotines in realtime and alert you when the lowest price is available. We use graphical model and machine learning to optimize our performance.</p>
+    </div>
+    <div class="span5 asset">
+      <img class="img-polaroid" src="img/bookticket.jpg">
+    </div>
+  </div>
+
+
+  <div class="row-fluid faq">
+    <div class="span10 offset1">
+      <h3>FAQ</h3>
+
+      <div class="accordion" id="accordion4">
+
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+              What is Ready2Fly?
+            </a>
+          </div>
+          <div id="collapseOne" class="accordion-body collapse">
+            <div class="accordion-inner">
+              Ready2Fly is a web service provider who help people to track the low price air ticket on the market.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+              How Ready2Fly works?
+            </a>
+          </div>
+          <div id="collapseTwo" class="accordion-body collapse">
+            <div class="accordion-inner">
+              Ready2Fly provides online tools for people to track ticket. The customers only need to type the destination, the trip date, and the target price. Readly2Fly will alert the customers when the low price ticket is available.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+              Why Ready2Fly can find low price ticket?
+            </a>
+          </div>
+          <div id="collapseThree" class="accordion-body collapse">
+            <div class="accordion-inner">
+              We use graphical model to analyze flight routing over dozens air carriers. We use machine learning and data mining to dig the lowest possible ticket.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+              Does Ready2Fly sell ticket?
+            </a>
+          </div>
+          <div id="collapseFour" class="accordion-body collapse">
+            <div class="accordion-inner">
+              We do not sell ticket directly. But we will advise you where to purchse the ticket.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <div class="row-fluid footer">
+    <div class="span12">
+      <p>This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>, without all the cruft that would otherwise be put at the botton of the page.</p>
+    </div>
+  </div>
+</div>
+</body>
 </html>
 
